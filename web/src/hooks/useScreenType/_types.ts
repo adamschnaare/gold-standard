@@ -1,0 +1,5 @@
+export const SCREEN_TYPES = {
+  MOBILE: 'MOBILE',
+  TABLET: 'TABLET',
+  DESKTOP: 'DESKTOP',
+};

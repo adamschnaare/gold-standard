@@ -1,20 +1,46 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": false,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": ["./src"]
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "paths": {
+            "@components/*": [
+                "/Users/adam/vcs/gold-standard/web/src/components/*"
+            ],
+            "@constants/*": [
+                "/Users/adam/vcs/gold-standard/web/src/constants/*"
+            ],
+            "@hooks/*": [
+                "/Users/adam/vcs/gold-standard/web/src/hooks/*"
+            ],
+            "@models/*": [
+                "/Users/adam/vcs/gold-standard/web/src/models/*"
+            ],
+            "@views/*": [
+                "/Users/adam/vcs/gold-standard/web/src/views/*"
+            ],
+            "@/*": [
+                "/Users/adam/vcs/gold-standard/web/src/*"
+            ]
+        }
+    },
+    "include": [
+        "./src"
+    ]
 }
