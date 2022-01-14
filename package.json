@@ -4,7 +4,8 @@
   "description": "Example playground highlighting best-in-class patterns and practices for a full-stack project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev:web": "cd web && npm run dev"
   },
   "repository": {
     "type": "git",
