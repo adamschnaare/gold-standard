@@ -1,0 +1,19 @@
+{
+  "name": "gold-standard",
+  "version": "1.0.0",
+  "description": "Example playground highlighting best-in-class patterns and practices for a full-stack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamschnaare/gold-standard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamschnaare/gold-standard/issues"
+  },
+  "homepage": "https://github.com/adamschnaare/gold-standard#readme"
+}
