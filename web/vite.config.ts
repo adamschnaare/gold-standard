@@ -19,7 +19,7 @@ export default defineConfig({
         ],
       },
     }),
-    ViteAliases({ useTypescript: true, useConfig: true }),
+    ViteAliases({ useTypescript: true, useConfig: true, useRelativePaths: true }),
     VitePWA(),
   ],
   define: {
