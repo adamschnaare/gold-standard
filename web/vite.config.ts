@@ -22,4 +22,7 @@ export default defineConfig({
     ViteAliases({ useTypescript: true, useConfig: true }),
     VitePWA(),
   ],
+  define: {
+    "global": {},
+  },
 });

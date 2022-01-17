@@ -21,22 +21,25 @@
         "jsx": "react-jsx",
         "paths": {
             "@components/*": [
-                "/Users/adam/vcs/gold-standard/web/src/components/*"
+                "/Users/gordon/Development/temp/gold-standard/web/src/components/*"
             ],
             "@constants/*": [
-                "/Users/adam/vcs/gold-standard/web/src/constants/*"
+                "/Users/gordon/Development/temp/gold-standard/web/src/constants/*"
             ],
             "@hooks/*": [
-                "/Users/adam/vcs/gold-standard/web/src/hooks/*"
+                "/Users/gordon/Development/temp/gold-standard/web/src/hooks/*"
             ],
             "@models/*": [
-                "/Users/adam/vcs/gold-standard/web/src/models/*"
+                "/Users/gordon/Development/temp/gold-standard/web/src/models/*"
             ],
             "@views/*": [
-                "/Users/adam/vcs/gold-standard/web/src/views/*"
+                "/Users/gordon/Development/temp/gold-standard/web/src/views/*"
             ],
             "@/*": [
-                "/Users/adam/vcs/gold-standard/web/src/*"
+                "/Users/gordon/Development/temp/gold-standard/web/src/*"
+            ],
+            "@graphiql-explorer/*": [
+                "/Users/gordon/Development/temp/gold-standard/web/src/graphiql-explorer/*"
             ]
         }
     },
